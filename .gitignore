@@ -115,13 +115,13 @@ dmypy.json
 ehthumbs.db
 Thumbs.db
 
-# Matplotlib
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-
 # Kiro IDE - keep steering files but ignore personal settings
-.kiro/
+.kiro/settings/
+.kiro/hooks/
 # Keep .kiro/steering/ - these are project documentation
+
+# Python virtual environment folders (created by pip installs)
+Lib/
+Scripts/
+share/
+pyvenv.cfg
