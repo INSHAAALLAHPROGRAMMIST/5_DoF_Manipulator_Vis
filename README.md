@@ -58,8 +58,8 @@ python test-1-manipulator.py
 - **α**: 0° - 360° (aylanish burchagi)
 - **β**: -180° - 180° (egilish burchagi)
 - **γ**: -90° - 90° (orientatsiya burchagi)
-- **h_CB**: 0 - 100 mm (vertikal ko'tarish)
-- **OA**: -50 - 50 mm (gorizontal siljish)
+- **h_CB**: 0 - 100 cm (vertikal ko'tarish)
+- **OA**: -50 - 50 cm (gorizontal siljish)
 
 ## Matematik model
 
@@ -73,17 +73,16 @@ Ez = L * (sin(β) - sin(γ + β)) + h_CB
 ```
 
 ### Konstantalar:
-- **L**: Bo'g'in uzunligi (30.0 mm)
-- **h_DC**: DC bo'g'in balandligi (30.0 mm)
+- **L**: Bo'g'in uzunligi (30.0 cm)
+- **h_DC**: DC bo'g'in balandligi (30.0 cm)
 
 ## Loyiha tuzilishi
 
 ```
 manipulator-5dof-viz/
 ├── test-1-manipulator.py    # Asosiy dastur fayli
-├── .kiro/                   # Kiro IDE konfiguratsiyalari
-│   └── steering/
-│       └── design-system.md # Dizayn tizimi qoidalari
+├── images/                  # Skrinshot va rasmlar
+│   └── manipulator-screenshot.png
 ├── .gitignore              # Git ignore qoidalari
 └── README.md               # Loyiha hujjatlari
 ```
@@ -188,8 +187,8 @@ python test-1-manipulator.py
 - **α**: 0° - 360° (rotation angle)
 - **β**: -180° - 180° (bending angle)
 - **γ**: -90° - 90° (orientation angle)
-- **h_CB**: 0 - 100 mm (vertical lift)
-- **OA**: -50 - 50 mm (horizontal displacement)
+- **h_CB**: 0 - 100 cm (vertical lift)
+- **OA**: -50 - 50 cm (horizontal displacement)
 
 ## Mathematical Model
 
@@ -203,17 +202,16 @@ Ez = L * (sin(β) - sin(γ + β)) + h_CB
 ```
 
 ### Constants:
-- **L**: Joint length (30.0 mm)
-- **h_DC**: DC joint height (30.0 mm)
+- **L**: Joint length (30.0 cm)
+- **h_DC**: DC joint height (30.0 cm)
 
 ## Project Structure
 
 ```
 manipulator-5dof-viz/
 ├── test-1-manipulator.py    # Main program file
-├── .kiro/                   # Kiro IDE configurations
-│   └── steering/
-│       └── design-system.md # Design system rules
+├── images/                  # Screenshots and images
+│   └── manipulator-screenshot.png
 ├── .gitignore              # Git ignore rules
 └── README.md               # Project documentation
 ```
