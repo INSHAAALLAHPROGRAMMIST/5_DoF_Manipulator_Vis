@@ -123,3 +123,4 @@ Lib/
 Scripts/
 share/
 pyvenv.cfg
+inverse_kinematics.code-workspace
